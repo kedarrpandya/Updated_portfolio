@@ -32,11 +32,13 @@ section {
     @content;
   }
 }
+
 @mixin tablet {
   @media (max-width: 1024px) {
     @content;
   }
 }
+
 @mixin desktop {
   @media (max-width: 1366px) {
     @content;

@@ -35,24 +35,50 @@ const Services = () => {
       animate={"animate"}
     >
       <motion.div className="textContainer" variants={variants}>
-        <p>
-          I focus on helping your brand grow
-          <br /> and move forward
-        </p>
+        <p></p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>January 2023</motion.b> to
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b> Business.
+            <motion.b whileHover={{ color: "orange" }}>October 2023</motion.b>
           </h1>
+          
         </div>
+      </motion.div>
+      <motion.div className="listContainer" variants={variants}>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2> Designation</h2>
+          <p>
+            I was a Customer Success Engineer at Trend Micro India. I was handling products from their Endpoint Security and Network Defense.
+          </p>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Products</h2>
+          <p>
+            I was handling Apex One, Apex Central and their SaaS version from Endpoint Security alongwith Tipping Point from Network Defense.
+          </p>        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Achievements</h2>
+          <p>
+            I have achieved a level-3 certificate in their Apex One product which is the toughest exam in Trend Micro for the said product.
+          </p>
+        </motion.div>
       </motion.div>
     </motion.div>
   );
