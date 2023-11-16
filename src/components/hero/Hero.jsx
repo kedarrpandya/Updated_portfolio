@@ -51,13 +51,6 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
             Web developer & Cyber Security
           </motion.h1>
-          <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants} whileHover={{ background: "orange", color: "black" }}>
-              See the Latest Works
-            </motion.button>
-            <motion.button variants={textVariants} whileHover={{ background: "white", color: "black" }}>Contact Me</motion.button>
-
-          </motion.div>
           <motion.img
             variants={textVariants}
             animate="scrollButton"
