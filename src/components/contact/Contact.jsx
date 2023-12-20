@@ -34,7 +34,7 @@ const Contact = () => {
         "service_a706r8n",
         "template_ekafhir",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "wFLqxwNRPA7GINKsx"
       )
       .then(
         (result) => {
