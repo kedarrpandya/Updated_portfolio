@@ -49,7 +49,7 @@ const Hero = () => {
         >
           <motion.h2 variants={textVariants}>Kedar Pandya</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web developer & Cyber Security
+            Master of Applied Computing | Software-Developer | Cyber-Security | Web-Developer
           </motion.h1>
           <motion.img
             variants={textVariants}
