@@ -59,7 +59,7 @@ const Services = () => {
         >
           <h2> Designation</h2>
           <p>
-            I was a Customer Success Engineer at Trend Micro India. I was handling products from their Endpoint Security and Network Defense.
+            I was a DevOps Platform Engineer at Trend Micro India. I was handling products from their Endpoint Security and Network Defense.
           </p>
         </motion.div>
         <motion.div
